@@ -77,7 +77,7 @@ class AIIntegrator:
         """Initialize Azure OpenAI client"""
         try:
             client = AzureOpenAI(
-                api_key=os.getenv("AZURE_OPENAI_API_KEY", "a87f3b6d9af74203b33788a796709638"),
+                api_key=os.getenv("AZURE_OPENAI_API_KEY", "please put your key here"),
                 api_version="2024-02-01",
                 azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT", "https://synthetic-data-test.openai.azure.com")
             )
